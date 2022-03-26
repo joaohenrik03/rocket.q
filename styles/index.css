@@ -16,6 +16,8 @@
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
     --hover-grey: #8794A7;
+
+    font-size: 62.5%; /* font-size = 10px */
 }
 
 * {
@@ -24,4 +26,8 @@
     box-sizing: border-box;
     border: none;
     text-decoration: none;
+}
+
+h2 {
+    font-size: 2.8rem;
 }
