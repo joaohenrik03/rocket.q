@@ -8,7 +8,7 @@
     --overlay: #040911;
     --icons-and-details: #A5B0C1;
 
-    --grey-grey: #4D5E77;
+    --grey-dark: #4D5E77;
     --grey-blue: #A1B2CD;
     --grey-medium: #D3D9E2;
     --grey-light: #E5EAF1;
@@ -16,4 +16,12 @@
     --hover-blue: #5699FF;
     --hover-red: #EA4B65;
     --hover-grey: #8794A7;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
 }
