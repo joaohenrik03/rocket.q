@@ -85,3 +85,10 @@ button > img, .button > img {
     margin-right: 1rem;    
     width: 2rem;
 }
+
+button.outlined,
+.button.outlined {
+    background-color: var(--white);
+    color: var(--blue);
+    border: .2rem solid var(--blue);
+}
