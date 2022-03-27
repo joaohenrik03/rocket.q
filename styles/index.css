@@ -28,6 +28,31 @@
     text-decoration: none;
 }
 
-h2 {
-    font-size: 2.8rem;
+body {
+    height: 100vh;
+    background-color: var(--background);
+}
+
+body, button, input, textarea {
+    /* Intervalo de tamanho */ 
+    font-size: clamp(14px, 1.6rem, 2vw);  
+    font-family: 'Open Sans', sans-serif; 
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sr-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
 }
