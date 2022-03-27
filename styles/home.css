@@ -15,16 +15,18 @@ header {
 #bg {
     grid-area: left;
     background: url('/assets/home-background-image.svg') no-repeat top/contain;
+    background-position-x: -10rem;
 }
 
 main {
     grid-area: right;
     display: flex;
     align-items: center;
+    margin-top: -10rem;
 }
 
 main .container {
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2 {
