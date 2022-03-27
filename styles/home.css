@@ -2,4 +2,21 @@
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 11.4rem 1fr;
+
+    grid-template-areas: 
+    'header header'
+    'left right';
+}
+
+header {
+    grid-area: header;
+}
+
+#bg {
+    grid-area: left;
+    background: url('/assets/home-background-image.svg') no-repeat top/contain;
+}
+
+main {
+    grid-area: right;
 }
