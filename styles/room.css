@@ -101,14 +101,34 @@
     align-items: center;
 }
 
+.question-wrapper .question-content .user {
+    background-color: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+
+}
+
+.question-wrapper .question-content p {
+    margin-left: 1.6rem;
+}
+
 .question-wrapper .actions {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.question-wrapper .actions a {
+.question-wrapper .actions > a {
     display: flex;
     align-items: center;
 }
+
+.question-wrapper .actions > a > img {
+    margin-right: .8rem;
+}
+
+.question-wrapper .actions > a:nth-child(2) {
+    margin-left: 2.4rem;
+}
+
 
