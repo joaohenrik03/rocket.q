@@ -131,4 +131,12 @@
     margin-left: 2.4rem;
 }
 
+.question-wrapper.read {
+    background-color: #EAECF2;
+}
+
+.question-wrapper.read .question-content .user {
+    background-color: var(--grey-blue);
+}
+
 
