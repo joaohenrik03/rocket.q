@@ -36,7 +36,8 @@ function handleClick(event, check = true) {
     modalDescription.innerHTML = `${text2} esta pergunta?`
 
     modalButton.innerHTML = check ? 'Sim, marcar como lida' : 'Sim, excluir'
-    modalButton.style.backgroundColor = check ? 'var(--blue)' : 'var(--red)'
+
+    check ? modalButton.classList.remove('red') : modalButton.classList.add('red')
 
     modal.open()
 }
