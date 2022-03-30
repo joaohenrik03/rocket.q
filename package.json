@@ -4,7 +4,7 @@
   "description": "Rocket.Q is an application for interaction through questions, it is possible to create a room for anonymous internet users to ask questions and the creator of the room, in possession of a password, manage these questions and mark them as read.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
