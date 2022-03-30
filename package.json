@@ -1,0 +1,20 @@
+{
+  "name": "rocket.q",
+  "version": "1.0.0",
+  "description": "Rocket.Q is an application for interaction through questions, it is possible to create a room for anonymous internet users to ask questions and the creator of the room, in possession of a password, manage these questions and mark them as read.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaohenrik03/rocket.q.git"
+  },
+  "keywords": [],
+  "author": "João Henrik Signori Zilch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaohenrik03/rocket.q/issues"
+  },
+  "homepage": "https://github.com/joaohenrik03/rocket.q#readme"
+}
