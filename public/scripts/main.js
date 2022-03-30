@@ -29,6 +29,8 @@ deleteButtons.forEach(button => {
 })
 
 function handleClick(event, check = true) {
+    event.preventDefault()
+
     const text = check ? 'Marcar como lida esta' : 'Excluir'
     const text2 = check ? 'Tem certeza que você deseja marcar como lida' : 'Tem certeza que você deseja excluir'
 
