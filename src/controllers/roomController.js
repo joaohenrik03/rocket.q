@@ -53,7 +53,7 @@ module.exports = {
         res.render("room", {roomId: roomId, questions: questions, questionsRead: questionsRead, isNoQuestions: isNoQuestions})
     },
 
-    enter(req, res){
+    enter(req, res) {
         const roomId = req.body.roomId
 
         res.redirect(`/room/${roomId}`)
