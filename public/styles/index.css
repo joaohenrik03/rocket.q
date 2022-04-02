@@ -1,21 +1,21 @@
 :root {
-    --black: #0D114F;
-    --white: #FAFAFA;
-    --red: #E83F5B; 
-    --light-blue: #E0ECFF;
-    --blue: #3485FF;
-    --background: #FBFCFF;
-    --overlay: #040911;
-    --icons-and-details: #A5B0C1;
+    --black: #4f4b0d;
+    --white: #fafafa;
+    --red: #e93f5b; 
+    --light-orange: #fff3e0;
+    --orange: #ffad33;
+    --background: #fffefa;
+    --overlay: #110c04;
+    --icons-and-details: #c0b5a5;
 
-    --grey-dark: #4D5E77;
-    --grey-blue: #A1B2CD;
-    --grey-medium: #D3D9E2;
-    --grey-light: #E5EAF1;
+    --grey-dark: #75654d;
+    --grey-orange: #cebda1;
+    --grey-medium: #e3ddd4;
+    --grey-light: #f1ece4;
 
-    --hover-blue: #5699FF;
-    --hover-red: #EA4B65;
-    --hover-grey: #8794A7;
+    --hover-orange: #ffbc57;
+    --hover-red: #ea4d67;
+    --hover-grey: #a69a87;
 
     /* 1rem = 16px (User Agent) = 100% (User Agent) */
     font-size: 62.5%; /* font-size = 10px */
@@ -75,7 +75,7 @@ button, .button {
     align-items: center;
     justify-content: center;
 
-    background-color: var(--blue);
+    background-color: var(--orange);
     color: var(--white);
 
     cursor: pointer;
@@ -94,8 +94,8 @@ button > img, .button > img {
 button.outlined,
 .button.outlined {
     background-color: var(--white);
-    color: var(--blue);
-    border: .2rem solid var(--blue);
+    color: var(--orange);
+    border: .2rem solid var(--orange);
 }
 
 button.red,

@@ -46,7 +46,7 @@
 }
 
 #question-form form {
-    border: .2rem solid var(--grey-blue);
+    border: .2rem solid var(--grey-orange);
     border-radius: 0 .8rem .8rem .8rem;
     padding: 1.6rem;
     margin-bottom: 1.6rem;
@@ -61,7 +61,7 @@
 }
 
 #question-form form textarea::placeholder {
-    color: var(--grey-blue);
+    color: var(--grey-orange);
 }
 
 #question-form form footer {
@@ -93,7 +93,7 @@
 /* -=-=-=-=-=-=-=-=-=-= Questions =-=-=-=-=-=-=-=-=-=- */
 
 .question-wrapper {
-    background-color: var(--light-blue);
+    background-color: var(--light-orange);
 
     margin-bottom: .8rem;
     border-radius: 0 .8rem .8rem .8rem;
@@ -106,7 +106,7 @@
 }
 
 .question-wrapper .question-content .user {
-    background-color: var(--blue);
+    background-color: var(--orange);
     clip-path: circle();
     padding: 1.4rem;
 
@@ -151,7 +151,7 @@ a.check {
 }
 
 .question-wrapper.read .question-content .user {
-    background-color: var(--grey-blue);
+    background-color: var(--grey-orange);
 }
 
 /* -=-=-=-=-=-=-=-=-=-=No Questions =-=-=-=-=-=-=-=-=-=- */
