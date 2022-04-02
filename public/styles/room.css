@@ -139,6 +139,11 @@
     margin-left: 2.4rem;
 }
 
+.question-wrapper a.delete, 
+a.check {
+    color: var(--black);
+}
+
 /* -=-=-=-=-=-=-=-=-=-= Questions Read =-=-=-=-=-=-=-=-=-=- */
 
 .question-wrapper.read {
