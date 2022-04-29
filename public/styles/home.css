@@ -26,7 +26,7 @@ main {
 }
 
 main .container {
-    width: min(36.3rem, 100%);
+    width: min(36.3rem, 90%);
 }
 
 main h2 {
@@ -99,6 +99,8 @@ input, button, .button {
     bottom: -15rem;
     right: 5.6rem;
 }
+
+/* -=-=-=-=-=-=-=-=-=-= Responsive =-=-=-=-=-=-=-=-=-=- */
 
 @media (max-width: 1023px) {
     .content {

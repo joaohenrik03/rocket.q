@@ -120,3 +120,16 @@ button.grey,
 .content header img {
     width: 16.7rem;  
 }
+
+/* -=-=-=-=-=-=-=-=-=-= Responsive =-=-=-=-=-=-=-=-=-=- */
+
+@media (max-width: 768px) {
+    .content header {
+        width: 80%;
+        margin: 2.5rem auto;
+    }
+
+    .content header img {
+        width: 12.7rem;  
+    }  
+}
