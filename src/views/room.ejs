@@ -25,7 +25,7 @@
             </a>
 
             <div class="buttons">
-                <div class="button outlined" id="room-id" data-id="<%= roomId %>">
+                <div class="button outlined" id="room-id" data-id="<%= roomId %>" onclick="copyIdRoom()">
                     #<%= roomId %>
                     <img src="/images/copy.svg" alt="Copiar">  
                 </div>
@@ -140,6 +140,12 @@
         </div>
     </div>
 
+    <script>
+        function copyIdRoom() {
+            const roomId = document.querySelector('#room-id').dataset.id
+            navigator.clipboard.writeText(roomId)
+        }
+    </script>
     <script src="/scripts/main.js" defer type="module"></script>
 </body>
 </html>
