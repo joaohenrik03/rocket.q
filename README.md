@@ -29,6 +29,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
 
+## ▶️ Como executar
+
+- Clone o repositório
+- Rode `npm install` para baixar as dependências
+- Rode `npm init-db` para criar as tabelas do banco de dados.
+- Rode o `npm start` para iniciar a aplicação.
+
+Por fim, a aplicação estará disponível em `http://localhost:5500`
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/community/file/1009821158959690135/Roquet.q). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
